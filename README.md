@@ -73,7 +73,7 @@ Git
 
 2. Clone the Repository:
 
-git clone [https://github.com/YOUR_USERNAME/event-management-app.git](https://github.com/YOUR_USERNAME/event-management-app.git)
+git clone [https://github.com/Dhaarani1116/event-management-app.git](https://github.com/Dhaarani1116/event-management-app.git)
 cd event-management-app
 
 3. Install Dependencies:
