@@ -1,9 +1,10 @@
 Intelligent Event Management System (EMS) for Sri Eshwar College
-<div align="center">
-
-</div>
 
 A smart, AI-powered platform designed to streamline the entire event lifecycle at Sri Eshwar College of Engineering. This system moves beyond simple scheduling to become an intelligent partner for administrators, event coordinators, and students.
+
+🌐 Live Demo
+You can access the live, deployed version of this project here:
+https://event-management-app-dhaarani.vercel.app/
 
 ✨ Core Features
 Our EMS is built with a unique architecture to handle the complexities of a dynamic college environment.
@@ -86,7 +87,7 @@ Create a new file in the root of the project named .env.
 
 Add your Google Gemini API key to this file:
 
-VITE_GEMINI_API_KEY="YOUR_ACTUAL_API_KEY_HERE"
+VITE_GEMINI_API_KEY="AIzaSyDbodyDe1U2_MH84udNX7vfhY-hMFmegcY"
 
 5. Run the Development Server:
 
@@ -97,29 +98,9 @@ Open your browser and navigate to http://localhost:5173.
 🧑‍💻 Usage & Mock Credentials
 The application uses mock data for demonstration. You can log in with the following credentials to test different roles:
 
-Role
-
-Email
-
-Password
-
-Student
-
-adya.s@sri-eshwar.edu
-
-Student@2025
-
-Coordinator
-
-prof.smith@sri-eshwar.edu
-
-Coord@123
-
-Admin
-
-admin@sri-eshwar.edu
-
-Admin#2025
+Role       - Student                | Coordinator                |  Admin
+Email      - adya.s@sri-eshwar.edu  | prof.smith@sri-eshwar.edu  |  admin@sri-eshwar.edu
+Password   - Student@2025           | Coord@123                  |  Admin#2025
 
 🔮 Future Work
 Full-Stack Migration: Transition from LocalStorage to a real-time database like Firebase Firestore.
